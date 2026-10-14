@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "Agent(*)",
+      "NotebookEdit(*)"
+    ]
+  },
+  "enabledPlugins": {
+    "claude-obsidian@agricidaniel-claude-obsidian": true,
+    "codex@openai-codex": true
+  },
+  "extraKnownMarketplaces": {
+    "agricidaniel-claude-obsidian": {
+      "source": {
+        "source": "github",
+        "repo": "agricidaniel/claude-obsidian"
+      }
+    },
+    "openai-codex": {
+      "source": {
+        "source": "github",
+        "repo": "openai/codex-plugin-cc"
+      }
+    }
+  },
+  "tui": "fullscreen",
+  "agentPushNotifEnabled": true
+}
